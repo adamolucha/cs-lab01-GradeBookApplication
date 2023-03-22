@@ -10,9 +10,9 @@ namespace GradeBook.GradeBooks
     {
 
 
-        public StandardGradeBook(string name) :base(name)
-            {
+        public StandardGradeBook(string name, bool isWeight) : base(name, isWeight)
+        {
             Type = GradeBookType.Standard;
-            }
+        }
     }
 }

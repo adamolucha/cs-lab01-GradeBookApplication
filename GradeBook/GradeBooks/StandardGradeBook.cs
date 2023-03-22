@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using GradeBook.Enums;
 namespace GradeBook.GradeBooks
 {
-    internal class StandardGradeBook : BaseGradeBook
+    public class StandardGradeBook : BaseGradeBook
     {
 
 
